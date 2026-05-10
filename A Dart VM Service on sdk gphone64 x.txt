@@ -1,0 +1,273 @@
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:60317/Eq6w5vWojbQ=/       
+
+D/FlutterGeolocator(12109): Creating service.
+D/FlutterGeolocator(12109): Binding to location service.
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at:
+http://127.0.0.1:9101?uri=http://127.0.0.1:60317/Eq6w5vWojbQ=/
+I/Choreographer(12109): Skipped 97 frames!  The application may be doing too much work on its main thread.
+I/WindowExtensionsImpl(12109): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+W/HWUI    (12109): Image decoding logging dropped!
+W/HWUI    (12109): Image decoding logging dropped!
+W/HWUI    (12109): Image decoding logging dropped!
+W/HWUI    (12109): Image decoding logging dropped!
+I/.example.my_app(12109): Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+D/FlutterGeolocator(12109): Geolocator foreground service connected
+D/FlutterGeolocator(12109): Initializing Geolocator services
+D/FlutterGeolocator(12109): Flutter engine connected. Connected engine count 1
+I/Choreographer(12109): Skipped 65 frames!  The application may be doing too much work on its main thread.
+D/WindowLayoutComponentImpl(12109): Register WindowLayoutInfoListener on Context=com.example.my_app.MainActivity@ba6e51, of which baseContext=android.app.ContextImpl@42e1245
+D/InsetsController(12109): hide(ime(), fromIme=false)
+I/ImeTracker(12109): com.example.my_app:c535112: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ProfileInstaller(12109): Installing profile for com.example.my_app
+I/.example.my_app(12109): AssetManager2(0x7952d2e698f8) locale list changing from [] to [en-US]
+I/ImeTracker(12109): com.example.my_app:a4edd6cf: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(12109): show(ime(), fromIme=false)
+D/InsetsController(12109): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor(12109): The input method toggled cursor monitoring on
+I/AssistStructure(12109): Flattened final assist data: 488 bytes, containing 1 windows, 3 views
+W/InteractionJankMonitor(12109): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.my_app
+I/ImeTracker(12109): com.example.my_app:a4edd6cf: onShown
+I/ImeTracker(12109): com.example.my_app:61aff202: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(12109): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher(12109): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@918e3ee
+D/InsetsController(12109): Setting requestedVisibleTypes to -9 (was -1)
+D/CompatChangeReporter(12109): Compat change id reported: 395521150; UID 10218; state: ENABLED       
+I/ImeTracker(12109): system_server:e6e31ffc: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter (12109): 📡 Connecting to Gemini...
+I/flutter (12109): 📡 API Status: 404
+I/ImeTracker(12109): com.example.my_app:b838ffec: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(12109): show(ime(), fromIme=false)
+D/InsetsController(12109): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor(12109): The input method toggled cursor monitoring on
+I/ImeTracker(12109): com.example.my_app:b838ffec: onShown
+I/ImeTracker(12109): com.example.my_app:f7a5faab: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(12109): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher(12109): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@918e3ee
+D/InsetsController(12109): Setting requestedVisibleTypes to -9 (was -1)
+W/WindowOnBackDispatcher(12109): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@c5116b5
+I/ImeTracker(12109): system_server:bf0bbb1d: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+
+══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+The following NetworkImageLoadException was thrown resolving an image codec:
+HTTP request failed, statusCode: 503, https://source.unsplash.com/400x400/?Tokyo
+
+When the exception was thrown, this was the stack:
+#0      NetworkImage._loadAsync (package:flutter/src/painting/_network_image_io.dart:130:9)
+<asynchronous suspension>
+#1      MultiFrameImageStreamCompleter._handleCodecReady
+(package:flutter/src/painting/image_stream.dart:1021:3)
+<asynchronous suspension>
+
+Image provider: NetworkImage("https://source.unsplash.com/400x400/?Tokyo", scale: 1.0)
+Image key: NetworkImage("https://source.unsplash.com/400x400/?Tokyo", scale: 1.0)
+════════════════════════════════════════════════════════════════════════════════════════════════════ 
+
+W/WindowOnBackDispatcher(12109): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@c5116b5
+I/ImeTracker(12109): com.example.my_app:6db497d7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(12109): show(ime(), fromIme=false)
+D/InsetsController(12109): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor(12109): The input method toggled cursor monitoring on
+I/AssistStructure(12109): Flattened final assist data: 488 bytes, containing 1 windows, 3 views
+W/Choreographer(12109): Frame time is 0.57086897 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+I/ImeTracker(12109): com.example.my_app:6db497d7: onShown
+I/ImeTracker(12109): com.example.my_app:553a7dc5: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(12109): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher(12109): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@918e3ee
+D/InsetsController(12109): Setting requestedVisibleTypes to -9 (was -1)
+I/ImeTracker(12109): system_server:88eab43e: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter (12109): 📡 Connecting to Gemini...
+I/flutter (12109): 📡 API Status: 404
+Lost connection to device.
+PS D:\flutter\travel_ai> 
+ *  History restored 
+
+PS D:\flutter\travel_ai> cd android
+PS D:\flutter\travel_ai\android> ./gradlew signingReport
+Starting a Gradle Daemon, 1 busy and 1 incompatible Daemons could not be reused, use --status for details
+
+> Task :gradle:compileKotlin
+w: file:///D:/flutter/scr/packages/flutter_tools/gradle/src/main/kotlin/DependencyVersionChecker.kt:194:39 'getter for minSdkVersion: AndroidVersion' is deprecated. Will be removed in v9.0
+w: file:///D:/flutter/scr/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:11:37 'ApkVariant' is deprecated. Deprecated in Java
+w: file:///D:/flutter/scr/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:628:69 'ApkVariant' is deprecated. Deprecated in Java
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+Variant: release
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+Variant: profile
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :app_links:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :flutter_keyboard_visibility:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :flutter_plugin_android_lifecycle:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :flutter_tts:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :geocoding_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :geolocator_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :image_picker_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :path_provider_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :permission_handler_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :shared_preferences_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :speech_to_text:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+> Task :url_launcher_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\gdhar\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: FB:0B:96:38:E4:2B:18:57:EE:F4:2D:87:24:1A:9C:A2
+SHA1: F5:D2:CB:9A:1A:52:07:BA:C8:26:C9:F4:BB:40:E4:BB:B4:B7:0C:49
+SHA-256: E0:78:50:0E:EF:BC:C7:A4:79:1D:50:DB:39:9B:16:EB:5F:BE:3D:46:F8:71:93:C5:DB:66:2F:7F:1E:65:8E:EF
+Valid until: Thursday, 2 September, 2055
+----------
+
+[Incubating] Problems report is available at: file:///D:/flutter/travel_ai/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3m
+17 actionable tasks: 14 executed, 3 up-to-date
+PS D:\flutter\travel_ai\android> 
